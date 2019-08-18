@@ -7,6 +7,7 @@ const AHeader = Layout.Header;
 
 const Header = (props) => {
     const { clickHandler, collapsed } = props;
+    
     return <AHeader css={styles}>
         <Icon type={collapsed ? 'menu-unfold' : 'menu-fold'} onClick={clickHandler} />
     </AHeader>
