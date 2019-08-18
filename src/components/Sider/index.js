@@ -2,6 +2,7 @@ import React from 'react';
 import { Layout, Menu, Icon  } from 'antd';
 import 'styled-components/macro';
 
+import styles from './styles';
 import Logo from '../Logo';
 
 const ASider = Layout.Sider;
@@ -9,7 +10,7 @@ const ASider = Layout.Sider;
 const Sider = (props) => {
     const { collapsed } = props;
 
-    return <ASider trigger={null} collapsible collapsed={collapsed}>
+    return <ASider css={styles} trigger={null} collapsible collapsed={collapsed}>
         <Logo />
         <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1">

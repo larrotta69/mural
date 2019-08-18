@@ -2,7 +2,7 @@ import { css } from 'styled-components';
 import { colors } from '../../theme';
 
 const header = css`
-    background: ${colors.purple};
+    background: ${colors.purple_2};
     color: white;
     padding-top: 7px;
     padding-left: 10px;

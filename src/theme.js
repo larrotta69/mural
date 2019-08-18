@@ -1,5 +1,10 @@
 const colors = {
-    purple: '#36394c',
+    purple_1: '#2a3142',
+    purple_2: '#36394c',
+    purple_3: '#252735',
+    purple_4: '#0d0e13',
+
+    grey_1: '#c1c1c1',
 }
 
 const withAnimation = (property) =>`
