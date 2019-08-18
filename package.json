@@ -10,6 +10,7 @@
         "react-scripts": "3.1.1"
     },
     "scripts": {
+        "preserve": "yarn build",
         "serve": "node server/index.js",
         "start": "react-scripts start",
         "build": "react-scripts build",
