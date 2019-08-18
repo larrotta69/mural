@@ -39,5 +39,10 @@
     },
     "devDependencies": {
         "link-module-alias": "^1.2.0"
+    },
+    "babelMacros": {
+        "styledComponents": {
+            "pure": true
+        }
     }
 }

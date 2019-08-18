@@ -8,7 +8,7 @@ import Header from '../../components/Header';
 import Sider from '../../components/Sider';
 import Tabs from '../../components/Tabs';
 
-const { Content } = Layout;
+// const { Content } = Layout;
 
 class App extends React.Component {
     state = {
