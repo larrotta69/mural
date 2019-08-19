@@ -56,7 +56,7 @@ const Table = (props) => {
 
 
     return <div className="module" css={styles}>
-        <ATable columns={columns} dataSource={dataSource} pagination={{ defaultPageSize: '5' }} />
+        <ATable columns={columns} dataSource={dataSource} pagination={{ defaultPageSize: 5 }} />
     </div>
 }
 
