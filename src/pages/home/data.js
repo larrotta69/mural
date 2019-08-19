@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Design from '../../modules/Design';
+import Data from '../../modules/Data';
 import Materials from '../../modules/Materials';
 import Info from '../../modules/Info';
 
@@ -88,12 +89,18 @@ const tabs = [
     },
     {
         id: 2,
+        title: 'Data',
+        content: <Data />,
+        icon: 'calculator'
+    },
+    {
+        id: 3,
         title: 'Materials',
         content: <Materials dataSource={materialsData} />,
         icon: 'table'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Info',
         content: <Info />,
         icon: 'fund'

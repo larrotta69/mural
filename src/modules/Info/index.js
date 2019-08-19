@@ -1,5 +1,5 @@
 import React from 'react';
-import { Timeline, Statistic, Card, Row, Col, Icon, Alert } from 'antd';
+import { Timeline, Statistic, Card, Row, Col, Icon } from 'antd';
 
 const Info = (props) => {
     return <>
@@ -31,8 +31,6 @@ const Info = (props) => {
             </Col>
         </Row>
     </div>
-    <br />
-    <br />
     <div className="module">
         <Timeline>
             <Timeline.Item color="green">Create a services site 2015-09-01</Timeline.Item>
@@ -58,36 +56,7 @@ const Info = (props) => {
                 <p>Technical testing 3 2015-09-01</p>
             </Timeline.Item>
         </Timeline>
-        <br />
-        <br />
-        <div className="module">
-            <Alert
-                message="Success Tips"
-                description="Detailed description and advice about successful copywriting."
-                type="success"
-                showIcon
-            />
-            <Alert
-                message="Informational Notes"
-                description="Additional description and information about copywriting."
-                type="info"
-                showIcon
-            />
-            <Alert
-                message="Warning"
-                description="This is a warning notice about copywriting."
-                type="warning"
-                showIcon
-            />
-            <Alert
-                message="Error"
-                description="This is an error message about copywriting."
-                type="error"
-                showIcon
-            />
-        </div>
     </div>
-
 </>
 }
 

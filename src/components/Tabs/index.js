@@ -7,7 +7,7 @@ const { TabPane } = ATabs;
 
 const Tabs = (props) => {
     const { tabs } = props
-    return <ATabs css={styles} defaultActiveKey="1" animated={false}>
+    return <ATabs css={styles} defaultActiveKey="2" animated={false}>
         {tabs.map(tab => <TabPane
             tab={
                 <span>

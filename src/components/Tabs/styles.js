@@ -7,7 +7,7 @@ const tabsHeight = '100px';
 const tabs = css`
     background: ${colors.purple_3};
 
-    i {
+    .ant-tabs-tab i {
         display: block;
         text-align: center;
         margin: 0 auto 10px !important;
