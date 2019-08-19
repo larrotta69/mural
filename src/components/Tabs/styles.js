@@ -1,6 +1,9 @@
 import { css } from 'styled-components';
 import { colors } from '../../theme';
 
+const headerHeight = '64px';
+const tabsHeight = '100px';
+
 const tabs = css`
     background: ${colors.purple_3};
 
@@ -25,15 +28,10 @@ const tabs = css`
         padding: 20px;
     }
 
-    .ant-tabs-tabpane {
-        min-height: calc( 100vh - 64px );
-        padding: 20px;
+    .ant-tabs-content {
         background: ${colors.purple_4};
-        color: white;
-
-        h2 {
-            color: white;
-        }
+        min-height: calc( 100vh - ${headerHeight} - ${tabsHeight} );
+        padding: 20px;
     }
 `
 

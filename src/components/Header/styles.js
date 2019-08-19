@@ -11,6 +11,12 @@ const header = css`
         width: 30px;
         height: 30px;
     }
+
+    .ant-badge {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
 `
 
 export default header;

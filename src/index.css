@@ -1,1 +1,25 @@
 @import '~antd/dist/antd.css';
+
+.ant-table-pagination.ant-pagination {
+    float: none;
+    margin-left: 15px;
+}
+
+.module {
+    background: #f5f5f5;
+    padding: 30px;
+}
+
+.ant-carousel {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.ant-carousel .slick-dots-top {
+    top: -40px;
+}
+
+.ant-carousel .slick-dots li button {
+    height: 20px;
+}
