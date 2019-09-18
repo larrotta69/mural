@@ -46,3 +46,15 @@
 .ant-tabs-nav .ant-tabs-tab:hover {
     color: #f44336;
 }
+
+.ant-layout .ant-select {
+    margin: 0;
+}
+
+.content {
+    min-height: 80vh;
+    padding-top: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}

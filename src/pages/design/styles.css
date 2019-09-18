@@ -1,0 +1,15 @@
+.design .form-content {
+    width: 70%;
+}
+
+.form-content .ant-row {
+    margin: 0;
+}
+
+.design-content {
+    min-height: 80vh;
+}
+
+.design-content img {
+    width: 70%;
+}

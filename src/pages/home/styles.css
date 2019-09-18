@@ -1,3 +1,8 @@
-.home {
-    background: red;
+.form-content {
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.home .ant-select {
+    margin-bottom: 20px;
 }

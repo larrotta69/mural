@@ -1,19 +1,15 @@
 import React from 'react';
-import { Icon, Layout, Avatar, Badge } from 'antd';
 import 'styled-components/macro';
-import styles from './styles';
 
-const AHeader = Layout.Header;
+import styles from './styles';
+import headerImg from '../../img/header.png';
 
 const Header = (props) => {
     const { clickHandler, collapsed } = props;
 
-    return <AHeader css={styles}>
-        <Icon type={collapsed ? 'menu-unfold' : 'menu-fold'} onClick={clickHandler} />
-        <Badge count={1}>
-            <Avatar shape="square" icon="user" />
-        </Badge>
-    </AHeader>
+    return <header css={styles}>
+        <img src={headerImg} />
+    </header>
 }
 
 export default Header;
