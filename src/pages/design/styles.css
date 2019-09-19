@@ -2,14 +2,21 @@
     width: 70%;
 }
 
-.form-content .ant-row {
-    margin: 0;
+.design .ant-row {
+    margin-bottom: 10px;
 }
 
 .design-content {
     min-height: 80vh;
+    text-align: center;
 }
 
 .design-content img {
     width: 70%;
+    margin-top: 20px;
+}
+
+.blocks img {
+    width: 100%;
+    margin-bottom: 10px;
 }
